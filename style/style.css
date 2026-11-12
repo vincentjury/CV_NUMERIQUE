@@ -1,0 +1,61 @@
+  :root {
+      --bg-primary-color:rgb(50,50,50);
+      --bg-secondary-color: rgb(75,75,75);
+      --txt-primary-color:rgb(224,224,224);
+      --txt-accent-color:rgb(0, 255, 136);
+  }
+
+
+  .font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .font-fira-code {
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  * { 
+    margin:0;
+  }
+
+  body {
+      background-color: var(--bg-primary-color);
+      color: var(--txt-primary-color);
+      display: flex;
+      align-items: center   ;
+      justify-content: space-between;
+      flex-direction: column;
+      min-height: 100vh;
+      
+  }
+
+
+
+
+
+
+  /* a {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: green;
+    text-align: center;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top    :10px;
+    width: 100%;
+  } */
+
+  
+
+  
+
+
+

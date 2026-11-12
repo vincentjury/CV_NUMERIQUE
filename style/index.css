@@ -1,0 +1,181 @@
+
+
+form {
+    background-color: var(--bg-secondary-color);
+    padding: 15px;
+    margin: 10px;
+    box-sizing: border-box;
+    max-width: 50%;
+    
+    div{
+        margin: 10px;
+        margin-bottom: 40px;
+    }
+
+    label, input{
+        display: block;
+        box-sizing: border-box;
+    }
+
+    input{
+        width: 100%;
+        padding:15px;
+        border-radius: 8px;
+    } 
+}
+
+.entete, .main, .footer{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+
+.entete{
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    .titre_entete{
+        background: radial-gradient(circle at center, rgb(0, 150, 0), rgb(150, 150, 150));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        font-size: 2em;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .logo_cv img{
+        height:60px;
+        width: auto;
+    }
+}
+
+
+.main{
+    align-items: center;
+    justify-content: center;
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+
+        background-color: var(--bg-secondary-color);
+
+        width: 450px;
+        padding: 20px 20px;
+
+        * {
+            margin:0}
+        }
+        
+        label, input, a{
+
+        }
+
+         label{
+            margin-bottom: 8px;
+        }
+
+        input{
+            width:100%;
+            height:40px;
+
+            /* padding:10px 10px; */
+            border-radius: 8px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        a {
+
+        }
+
+
+        .zone_formulaire_identification, .zone_formulaire_mot_de_passe, .zone_formulaire_boutons {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+
+            /* background: linear-gradient(0deg, red, white); */
+        }
+
+        .zone_formulaire_identification {
+            gap: 10px;
+            .definition_identifiant{
+                display: flex;
+                flex-direction: row;
+                box-sizing: border-box;
+
+                justify-content: space-between;
+                align-items: center;
+
+                .choix_type_identifiant {
+                    display: flex;
+                    flex-direction: row;
+                    box-sizing: border-box;
+
+                    gap:5px;
+                }
+            }
+        }
+
+        .zone_formulaire_mot_de_passe{
+            margin: 40px 0;
+        }
+
+        .zone_formulaire_boutons {
+            
+            gap: 5px;
+
+            .bouton_identification{
+                border-radius: 8px;
+                /* padding: 10px 10px; */
+                box-sizing: border-box;
+            }
+
+
+
+            .bouton_inscription, .bouton_mdp_oublie{
+                margin-top:10px;
+                color: rgb(0, 200, 0);
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 0.7em;
+            }
+    }
+}
+
+
+
+.footer{
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+
+    .indication_version{
+        color: rgba(125,125,125,1);
+        margin: 0 0 0 10px;
+    }
+
+    .lien_langue{
+        margin: 10px;
+
+        a{
+            color: rgb(255,255,255);
+            text-decoration: none;
+
+            font-size: 1em;
+            font-weight: 500;
+
+            gap: 10px;
+        }
+    }
+}
+
